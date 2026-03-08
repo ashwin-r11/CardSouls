@@ -23,8 +23,8 @@
 
 ## 🎬 Demo
 
-https://github.com/user-attachments/assets/demo-video
-
+[https://github.com/user-attachments/assets/demo-video
+](https://github.com/user-attachments/assets/f1258166-4f0f-4b19-979e-69637e22499a)
 > 👆 *If the video doesn't load above, see it here:* [`reference/Screencast from 2026-03-08 17-02-09.mp4`](reference/Screencast%20from%202026-03-08%2017-02-09.mp4)
 
 <video src="reference/Screencast from 2026-03-08 17-02-09.mp4" width="100%" controls autoplay muted loop></video>
