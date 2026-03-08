@@ -36,7 +36,7 @@ export interface ArtDirectorOutput {
 export interface PaletteOutput {
   hex_codes: string[]; // exactly 5
   palette_name: string;
-  dominant_mood: string;
+  dominant_mood?: string;
   background_hex: string;
   text_primary_hex: string;
   text_accent_hex: string; // typically warm/yellow for verse contrast
@@ -59,7 +59,7 @@ export interface CardData {
   key_phrase: string;
   verse: string[];
   traits: string[];
-  visual_prompt: ArtDirectorOutput;
+  visual_prompt: string;
   color_palette: PaletteOutput;
   music: MusicOutput;
   // From external APIs

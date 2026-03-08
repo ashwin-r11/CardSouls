@@ -156,8 +156,9 @@ export async function runCardPipeline(
     music: {
       search_query: agentResult.music_query,
       mood_descriptor: agentResult.traits.slice(0, 3).join(" / "),
-      genre: "atmospheric",
+      genre_tags: ["atmospheric"],
       tempo: "mid" as const,
+      era_hint: "modern",
     },
     spotify_track,
     image_url,
