@@ -21,7 +21,7 @@ const PIPELINE_MODE = (process.env.PIPELINE_MODE ?? "sequential") as
   | "sequential"
   | "parallel";
 
-export const maxDuration = 60;
+export const maxDuration = 120;
 
 // ── Input validation ─────────────────────────────────────────────────────────
 

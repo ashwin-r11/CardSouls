@@ -51,10 +51,11 @@ You input:
 - 🎨 **Aesthetic preference** — dark, ethereal, brutal, warm, cold...
 
 CardSouls generates:
-- 🖼️ **AI character portrait** tailored to the aesthetic
-- ✍️ **Poetic verse** capturing your connection
-- 🎵 **Matching soundtrack** from Deezer
-- 🎨 **Curated color palette**
+- 🖼️ **AI character portrait** — illustrated/painted style (oil, watercolor, ink wash, charcoal...)
+- ✍️ **Emotionally grounded verse** — raw lines that remind you of *them*, not generic poetry
+- 💬 **Key phrase** — one bold line that captures why this character stays with you
+- 🎵 **Matching soundtrack** with song title displayed on the card
+- 🎨 **Character-aware color palette** — card background, borders, and accents all tint to match
 - 📥 **Downloadable PNG** with crisp 2x resolution
 
 **All for free. Forever.**
@@ -105,7 +106,8 @@ User Input (character + emotional resonance)
     ▼
 ┌──────────────────────────────────┐
 │  📄 SVG Card Assembly            │
-│  1080×1350px Polaroid layout     │
+│  420×620px collectible card      │
+│  Palette-aware dynamic coloring  │
 │  → Client-side PNG export (2x)  │
 └──────────────────────────────────┘
 ```
@@ -213,12 +215,16 @@ The current version is a functional MVP. The following features are planned but 
 
 | Feature | Status | Description |
 |:--------|:------:|:------------|
-| 🎵 **Music Waveform** | 🔜 Planned | Spotify/Deezer-style audio waveform visualization on the card |
-| 🔤 **Aesthetic Font Designs** | 🔜 Planned | Character-themed typography that adapts based on the character's source media and aesthetic style |
-| 🎨 **Color Palette Consistency** | 🔜 Planned | AI-aware palette generation that matches the character's visual identity, source material colors, and emotional tone — not just preset palettes |
-| 🖼️ **Image Model Upgrade** | 🔜 Planned | Higher fidelity character portraits with better prompt engineering and model selection |
+| 🎨 **Palette-Aware Card Coloring** | ✅ Done | Card background, borders, quote marks, and accents dynamically tint to the character's palette |
+| 🖼️ **Illustrated Art Styles** | ✅ Done | AI generates oil paintings, watercolors, ink wash, charcoal, comic art — not generic photorealism |
+| ✍️ **Emotionally Grounded Verse** | ✅ Done | Raw, specific lines referencing character details — weapons, scars, contradictions — not generic poetry |
+| 💬 **Key Phrase Display** | ✅ Done | Bold, centered key phrase on the card capturing the user's emotional connection |
+| 🎵 **Song Title on Card** | ✅ Done | Matched song title and artist displayed in italic serif on the card |
+| 🔤 **Character-Themed Typography** | 🔜 Planned | Font selection that adapts based on the character's source media and aesthetic |
+| 🎵 **Music Waveform** | 🔜 Planned | Audio waveform visualization on the card |
+| 🌐 **Gallery / Share** | 🔜 Planned | Public gallery of generated cards with shareable links |
 
-> These features are actively being worked on. Contributions welcome!
+> Contributions welcome!
 
 ---
 
